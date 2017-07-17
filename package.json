@@ -1,0 +1,35 @@
+{
+  "name": "my-promise",
+  "version": "0.0.1",
+  "description": "try to implement a Promise lib",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --watch --reporter spec --compilers ts:ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/green0511/my-promise.git"
+  },
+  "keywords": [
+    "typescript",
+    "promise"
+  ],
+  "author": "green0511",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/green0511/my-promise/issues"
+  },
+  "homepage": "https://github.com/green0511/my-promise#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.13",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.2.0",
+    "typescript": "^2.4.1"
+  }
+}
